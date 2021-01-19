@@ -1,0 +1,74 @@
+{
+  "skip_undocumented": true, 
+  "author": "Dropbox, Inc.", 
+  "custom_categories": [
+    {
+      "name": "Routes", 
+      "children": [
+        "AccountRoutes", 
+        "AuthRoutes", 
+        "CheckRoutes", 
+        "CloudDocsRoutes", 
+        "ContactsRoutes", 
+        "FilePropertiesRoutes", 
+        "FileRequestsRoutes", 
+        "FilesRoutes", 
+        "PaperRoutes", 
+        "SharingRoutes", 
+        "TeamRoutes", 
+        "TeamLogRoutes", 
+        "UsersRoutes"
+      ]
+    }, 
+    {
+      "name": "Data Types", 
+      "children": [
+        "Account", 
+        "Async", 
+        "Auth", 
+        "Check", 
+        "CloudDocs", 
+        "Common", 
+        "Contacts", 
+        "FileProperties", 
+        "FileRequests", 
+        "Files", 
+        "Paper", 
+        "SecondaryEmails", 
+        "SeenState", 
+        "Sharing", 
+        "StoneFixtures", 
+        "Team", 
+        "TeamCommon", 
+        "TeamLog", 
+        "TeamPolicies", 
+        "Users", 
+        "UsersCommon"
+      ]
+    }, 
+    {
+      "name": "Authentication", 
+      "children": [
+        "DropboxOAuthManager", 
+        "DropboxOAuthResult", 
+        "DropboxAccessToken", 
+        "OAuth2Error"
+      ]
+    }, 
+    {
+      "name": "Client Classes", 
+      "children": [
+        "DropboxClient", 
+        "DropboxTeamClient", 
+        "DropboxClientsManager"
+      ]
+    }
+  ], 
+  "author_url": "https://dropbox.com/developers", 
+  "exclude": [
+    "Source/StoneSerializers.swift", 
+    "Source/StoneValidators.swift", 
+    "Source/DropboxTransportClient.swift"
+  ], 
+  "hide_documentation_coverage": true
+}
